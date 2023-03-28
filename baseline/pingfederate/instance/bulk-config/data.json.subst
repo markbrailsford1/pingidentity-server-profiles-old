@@ -1,3 +1,31 @@
+Skip to content
+Product
+Solutions
+Open Source
+Pricing
+Search
+Sign in
+Sign up
+markbrailsford1
+/
+pingidentity-server-profiles
+Public
+Code
+Issues
+Pull requests
+Projects
+Security
+Insights
+pingidentity-server-profiles/baseline/pingfederate/instance/bulk-config/data.json.subst
+@timothynguyen90
+timothynguyen90 Use PRIVATE_KEYSTORE and PRIVATE_KEYSTORE_PIN in pingfederate server …
+…
+Latest commit aa89c21 on Nov 17, 2022
+ History
+ 4 contributors
+@timothynguyen90@samir-gandhi@henryrecker-pingidentity@erikostien-pingidentity
+1982 lines (1982 sloc)  83.7 KB
+
 {
     "metadata": {"pfVersion": "10.1.2.0"},
     "operations": [
@@ -360,7 +388,7 @@
                     "saml2EntityId": "https://${PF_ENGINE_PRIVATE_HOSTNAME}:${PF_ENGINE_PRIVATE_PORT_HTTPS}",
                     "saml1xIssuerId": "localhost:default:entityId",
                     "wsfedRealm": "",
-                    "baseUrl": "https://${PF_ENGINE_PRIVATE_HOSTNAME}:${PF_ENGINE_PRIVATE_PORT_HTTPS}",
+                    "baseUrl": "https://${PF_ENGINE_BASE_URL}",
                     "saml1xSourceId": ""
                 },
                 "contactInfo": {},
